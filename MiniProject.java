@@ -44,7 +44,7 @@ public class MiniProject {
 			String Mobile=sc.next();
 			
 			
-			st.executeUpdate("insert into Userinfo2 value ('"+Email+"','"+Fname+"','"+Lname+"','"+Mobile+"')" );
+			st.executeUpdate("insert into Userinfo value ('"+Email+"','"+Fname+"','"+Lname+"','"+Mobile+"')" );
 			
 			System.out.println(" "+Fname+" : Thannku for registration ");
 			
